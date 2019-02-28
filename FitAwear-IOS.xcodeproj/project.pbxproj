@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3A28FE122284CE1004E9285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A28FE022284CE1004E9285 /* AppDelegate.swift */; };
+		F3A28FE322284CE1004E9285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A28FE222284CE1004E9285 /* ViewController.swift */; };
+		F3A28FE622284CE1004E9285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A28FE422284CE1004E9285 /* Main.storyboard */; };
+		F3A28FE822284CE2004E9285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A28FE722284CE2004E9285 /* Assets.xcassets */; };
+		F3A28FEB22284CE2004E9285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A28FE922284CE2004E9285 /* LaunchScreen.storyboard */; };
+		F3A28FF622284CE2004E9285 /* FitAwear_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A28FF522284CE2004E9285 /* FitAwear_IOSTests.swift */; };
+		F3A2900122284CE2004E9285 /* FitAwear_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2900022284CE2004E9285 /* FitAwear_IOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3A28FF222284CE2004E9285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A28FD522284CE1004E9285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A28FDC22284CE1004E9285;
+			remoteInfo = "FitAwear-IOS";
+		};
+		F3A28FFD22284CE2004E9285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A28FD522284CE1004E9285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A28FDC22284CE1004E9285;
+			remoteInfo = "FitAwear-IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3A28FDD22284CE1004E9285 /* FitAwear-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitAwear-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A28FE022284CE1004E9285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3A28FE222284CE1004E9285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3A28FE522284CE1004E9285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3A28FE722284CE2004E9285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3A28FEA22284CE2004E9285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3A28FEC22284CE2004E9285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A28FF122284CE2004E9285 /* FitAwear-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitAwear-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A28FF522284CE2004E9285 /* FitAwear_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitAwear_IOSTests.swift; sourceTree = "<group>"; };
+		F3A28FF722284CE2004E9285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A28FFC22284CE2004E9285 /* FitAwear-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitAwear-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A2900022284CE2004E9285 /* FitAwear_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitAwear_IOSUITests.swift; sourceTree = "<group>"; };
+		F3A2900222284CE2004E9285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A28FDA22284CE1004E9285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A28FEE22284CE2004E9285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A28FF922284CE2004E9285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3A28FD422284CE1004E9285 = {
+			isa = PBXGroup;
+			children = (
+				F3A28FDF22284CE1004E9285 /* FitAwear-IOS */,
+				F3A28FF422284CE2004E9285 /* FitAwear-IOSTests */,
+				F3A28FFF22284CE2004E9285 /* FitAwear-IOSUITests */,
+				F3A28FDE22284CE1004E9285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A28FDE22284CE1004E9285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A28FDD22284CE1004E9285 /* FitAwear-IOS.app */,
+				F3A28FF122284CE2004E9285 /* FitAwear-IOSTests.xctest */,
+				F3A28FFC22284CE2004E9285 /* FitAwear-IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3A28FDF22284CE1004E9285 /* FitAwear-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3A28FE022284CE1004E9285 /* AppDelegate.swift */,
+				F3A28FE222284CE1004E9285 /* ViewController.swift */,
+				F3A28FE422284CE1004E9285 /* Main.storyboard */,
+				F3A28FE722284CE2004E9285 /* Assets.xcassets */,
+				F3A28FE922284CE2004E9285 /* LaunchScreen.storyboard */,
+				F3A28FEC22284CE2004E9285 /* Info.plist */,
+			);
+			path = "FitAwear-IOS";
+			sourceTree = "<group>";
+		};
+		F3A28FF422284CE2004E9285 /* FitAwear-IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A28FF522284CE2004E9285 /* FitAwear_IOSTests.swift */,
+				F3A28FF722284CE2004E9285 /* Info.plist */,
+			);
+			path = "FitAwear-IOSTests";
+			sourceTree = "<group>";
+		};
+		F3A28FFF22284CE2004E9285 /* FitAwear-IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A2900022284CE2004E9285 /* FitAwear_IOSUITests.swift */,
+				F3A2900222284CE2004E9285 /* Info.plist */,
+			);
+			path = "FitAwear-IOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3A28FDC22284CE1004E9285 /* FitAwear-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A2900522284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOS" */;
+			buildPhases = (
+				F3A28FD922284CE1004E9285 /* Sources */,
+				F3A28FDA22284CE1004E9285 /* Frameworks */,
+				F3A28FDB22284CE1004E9285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitAwear-IOS";
+			productName = "FitAwear-IOS";
+			productReference = F3A28FDD22284CE1004E9285 /* FitAwear-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3A28FF022284CE2004E9285 /* FitAwear-IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A2900822284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOSTests" */;
+			buildPhases = (
+				F3A28FED22284CE2004E9285 /* Sources */,
+				F3A28FEE22284CE2004E9285 /* Frameworks */,
+				F3A28FEF22284CE2004E9285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A28FF322284CE2004E9285 /* PBXTargetDependency */,
+			);
+			name = "FitAwear-IOSTests";
+			productName = "FitAwear-IOSTests";
+			productReference = F3A28FF122284CE2004E9285 /* FitAwear-IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3A28FFB22284CE2004E9285 /* FitAwear-IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A2900B22284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOSUITests" */;
+			buildPhases = (
+				F3A28FF822284CE2004E9285 /* Sources */,
+				F3A28FF922284CE2004E9285 /* Frameworks */,
+				F3A28FFA22284CE2004E9285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A28FFE22284CE2004E9285 /* PBXTargetDependency */,
+			);
+			name = "FitAwear-IOSUITests";
+			productName = "FitAwear-IOSUITests";
+			productReference = F3A28FFC22284CE2004E9285 /* FitAwear-IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3A28FD522284CE1004E9285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Fred Liu";
+				TargetAttributes = {
+					F3A28FDC22284CE1004E9285 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F3A28FF022284CE2004E9285 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F3A28FDC22284CE1004E9285;
+					};
+					F3A28FFB22284CE2004E9285 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F3A28FDC22284CE1004E9285;
+					};
+				};
+			};
+			buildConfigurationList = F3A28FD822284CE1004E9285 /* Build configuration list for PBXProject "FitAwear-IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3A28FD422284CE1004E9285;
+			productRefGroup = F3A28FDE22284CE1004E9285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3A28FDC22284CE1004E9285 /* FitAwear-IOS */,
+				F3A28FF022284CE2004E9285 /* FitAwear-IOSTests */,
+				F3A28FFB22284CE2004E9285 /* FitAwear-IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3A28FDB22284CE1004E9285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A28FEB22284CE2004E9285 /* LaunchScreen.storyboard in Resources */,
+				F3A28FE822284CE2004E9285 /* Assets.xcassets in Resources */,
+				F3A28FE622284CE1004E9285 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A28FEF22284CE2004E9285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A28FFA22284CE2004E9285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3A28FD922284CE1004E9285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A28FE322284CE1004E9285 /* ViewController.swift in Sources */,
+				F3A28FE122284CE1004E9285 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A28FED22284CE2004E9285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A28FF622284CE2004E9285 /* FitAwear_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A28FF822284CE2004E9285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A2900122284CE2004E9285 /* FitAwear_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3A28FF322284CE2004E9285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A28FDC22284CE1004E9285 /* FitAwear-IOS */;
+			targetProxy = F3A28FF222284CE2004E9285 /* PBXContainerItemProxy */;
+		};
+		F3A28FFE22284CE2004E9285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A28FDC22284CE1004E9285 /* FitAwear-IOS */;
+			targetProxy = F3A28FFD22284CE2004E9285 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3A28FE422284CE1004E9285 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A28FE522284CE1004E9285 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3A28FE922284CE2004E9285 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A28FEA22284CE2004E9285 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3A2900322284CE2004E9285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3A2900422284CE2004E9285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3A2900622284CE2004E9285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W475AZK636;
+				INFOPLIST_FILE = "FitAwear-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VT.FitAwear-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3A2900722284CE2004E9285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W475AZK636;
+				INFOPLIST_FILE = "FitAwear-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VT.FitAwear-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3A2900922284CE2004E9285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W475AZK636;
+				INFOPLIST_FILE = "FitAwear-IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VT.FitAwear-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitAwear-IOS.app/FitAwear-IOS";
+			};
+			name = Debug;
+		};
+		F3A2900A22284CE2004E9285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W475AZK636;
+				INFOPLIST_FILE = "FitAwear-IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VT.FitAwear-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitAwear-IOS.app/FitAwear-IOS";
+			};
+			name = Release;
+		};
+		F3A2900C22284CE2004E9285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W475AZK636;
+				INFOPLIST_FILE = "FitAwear-IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VT.FitAwear-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FitAwear-IOS";
+			};
+			name = Debug;
+		};
+		F3A2900D22284CE2004E9285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W475AZK636;
+				INFOPLIST_FILE = "FitAwear-IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VT.FitAwear-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FitAwear-IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3A28FD822284CE1004E9285 /* Build configuration list for PBXProject "FitAwear-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A2900322284CE2004E9285 /* Debug */,
+				F3A2900422284CE2004E9285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A2900522284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A2900622284CE2004E9285 /* Debug */,
+				F3A2900722284CE2004E9285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A2900822284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A2900922284CE2004E9285 /* Debug */,
+				F3A2900A22284CE2004E9285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A2900B22284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A2900C22284CE2004E9285 /* Debug */,
+				F3A2900D22284CE2004E9285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3A28FD522284CE1004E9285 /* Project object */;
+}
