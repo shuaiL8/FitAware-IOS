@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F3A28FE122284CE1004E9285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A28FE022284CE1004E9285 /* AppDelegate.swift */; };
-		F3A28FE322284CE1004E9285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A28FE222284CE1004E9285 /* ViewController.swift */; };
+		F3A28FE322284CE1004E9285 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A28FE222284CE1004E9285 /* LoginViewController.swift */; };
 		F3A28FE622284CE1004E9285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A28FE422284CE1004E9285 /* Main.storyboard */; };
 		F3A28FE822284CE2004E9285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A28FE722284CE2004E9285 /* Assets.xcassets */; };
-		F3A28FEB22284CE2004E9285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A28FE922284CE2004E9285 /* LaunchScreen.storyboard */; };
 		F3A28FF622284CE2004E9285 /* FitAwear_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A28FF522284CE2004E9285 /* FitAwear_IOSTests.swift */; };
 		F3A2900122284CE2004E9285 /* FitAwear_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2900022284CE2004E9285 /* FitAwear_IOSUITests.swift */; };
+		F3A2900F22285780004E9285 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2900E22285780004E9285 /* MainTabController.swift */; };
+		F3A29011222872C8004E9285 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A29010222872C8004E9285 /* MeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F3A28FDD22284CE1004E9285 /* FitAwear-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitAwear-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A28FDD22284CE1004E9285 /* FitAware-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitAware-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A28FE022284CE1004E9285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3A28FE222284CE1004E9285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3A28FE222284CE1004E9285 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F3A28FE522284CE1004E9285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3A28FE722284CE2004E9285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3A28FEA22284CE2004E9285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A28FEC22284CE2004E9285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3A28FF122284CE2004E9285 /* FitAwear-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitAwear-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A28FF122284CE2004E9285 /* FitAware-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitAware-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A28FF522284CE2004E9285 /* FitAwear_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitAwear_IOSTests.swift; sourceTree = "<group>"; };
 		F3A28FF722284CE2004E9285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3A28FFC22284CE2004E9285 /* FitAwear-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitAwear-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A28FFC22284CE2004E9285 /* FitAware-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitAware-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A2900022284CE2004E9285 /* FitAwear_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitAwear_IOSUITests.swift; sourceTree = "<group>"; };
 		F3A2900222284CE2004E9285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A2900E22285780004E9285 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		F3A29010222872C8004E9285 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +89,9 @@
 		F3A28FDE22284CE1004E9285 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3A28FDD22284CE1004E9285 /* FitAwear-IOS.app */,
-				F3A28FF122284CE2004E9285 /* FitAwear-IOSTests.xctest */,
-				F3A28FFC22284CE2004E9285 /* FitAwear-IOSUITests.xctest */,
+				F3A28FDD22284CE1004E9285 /* FitAware-IOS.app */,
+				F3A28FF122284CE2004E9285 /* FitAware-IOSTests.xctest */,
+				F3A28FFC22284CE2004E9285 /* FitAware-IOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				F3A28FE022284CE1004E9285 /* AppDelegate.swift */,
-				F3A28FE222284CE1004E9285 /* ViewController.swift */,
+				F3A28FE222284CE1004E9285 /* LoginViewController.swift */,
 				F3A28FE422284CE1004E9285 /* Main.storyboard */,
 				F3A28FE722284CE2004E9285 /* Assets.xcassets */,
-				F3A28FE922284CE2004E9285 /* LaunchScreen.storyboard */,
 				F3A28FEC22284CE2004E9285 /* Info.plist */,
+				F3A2900E22285780004E9285 /* MainTabController.swift */,
+				F3A29010222872C8004E9285 /* MeViewController.swift */,
 			);
 			path = "FitAwear-IOS";
 			sourceTree = "<group>";
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3A28FDC22284CE1004E9285 /* FitAwear-IOS */ = {
+		F3A28FDC22284CE1004E9285 /* FitAware-IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3A2900522284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOS" */;
+			buildConfigurationList = F3A2900522284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAware-IOS" */;
 			buildPhases = (
 				F3A28FD922284CE1004E9285 /* Sources */,
 				F3A28FDA22284CE1004E9285 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "FitAwear-IOS";
+			name = "FitAware-IOS";
 			productName = "FitAwear-IOS";
-			productReference = F3A28FDD22284CE1004E9285 /* FitAwear-IOS.app */;
+			productReference = F3A28FDD22284CE1004E9285 /* FitAware-IOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3A28FF022284CE2004E9285 /* FitAwear-IOSTests */ = {
+		F3A28FF022284CE2004E9285 /* FitAware-IOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3A2900822284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOSTests" */;
+			buildConfigurationList = F3A2900822284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAware-IOSTests" */;
 			buildPhases = (
 				F3A28FED22284CE2004E9285 /* Sources */,
 				F3A28FEE22284CE2004E9285 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				F3A28FF322284CE2004E9285 /* PBXTargetDependency */,
 			);
-			name = "FitAwear-IOSTests";
+			name = "FitAware-IOSTests";
 			productName = "FitAwear-IOSTests";
-			productReference = F3A28FF122284CE2004E9285 /* FitAwear-IOSTests.xctest */;
+			productReference = F3A28FF122284CE2004E9285 /* FitAware-IOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F3A28FFB22284CE2004E9285 /* FitAwear-IOSUITests */ = {
+		F3A28FFB22284CE2004E9285 /* FitAware-IOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3A2900B22284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOSUITests" */;
+			buildConfigurationList = F3A2900B22284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAware-IOSUITests" */;
 			buildPhases = (
 				F3A28FF822284CE2004E9285 /* Sources */,
 				F3A28FF922284CE2004E9285 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				F3A28FFE22284CE2004E9285 /* PBXTargetDependency */,
 			);
-			name = "FitAwear-IOSUITests";
+			name = "FitAware-IOSUITests";
 			productName = "FitAwear-IOSUITests";
-			productReference = F3A28FFC22284CE2004E9285 /* FitAwear-IOSUITests.xctest */;
+			productReference = F3A28FFC22284CE2004E9285 /* FitAware-IOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3A28FD822284CE1004E9285 /* Build configuration list for PBXProject "FitAwear-IOS" */;
+			buildConfigurationList = F3A28FD822284CE1004E9285 /* Build configuration list for PBXProject "FitAware-IOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3A28FDC22284CE1004E9285 /* FitAwear-IOS */,
-				F3A28FF022284CE2004E9285 /* FitAwear-IOSTests */,
-				F3A28FFB22284CE2004E9285 /* FitAwear-IOSUITests */,
+				F3A28FDC22284CE1004E9285 /* FitAware-IOS */,
+				F3A28FF022284CE2004E9285 /* FitAware-IOSTests */,
+				F3A28FFB22284CE2004E9285 /* FitAware-IOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A28FEB22284CE2004E9285 /* LaunchScreen.storyboard in Resources */,
 				F3A28FE822284CE2004E9285 /* Assets.xcassets in Resources */,
 				F3A28FE622284CE1004E9285 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A28FE322284CE1004E9285 /* ViewController.swift in Sources */,
+				F3A28FE322284CE1004E9285 /* LoginViewController.swift in Sources */,
 				F3A28FE122284CE1004E9285 /* AppDelegate.swift in Sources */,
+				F3A29011222872C8004E9285 /* MeViewController.swift in Sources */,
+				F3A2900F22285780004E9285 /* MainTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		F3A28FF322284CE2004E9285 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3A28FDC22284CE1004E9285 /* FitAwear-IOS */;
+			target = F3A28FDC22284CE1004E9285 /* FitAware-IOS */;
 			targetProxy = F3A28FF222284CE2004E9285 /* PBXContainerItemProxy */;
 		};
 		F3A28FFE22284CE2004E9285 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3A28FDC22284CE1004E9285 /* FitAwear-IOS */;
+			target = F3A28FDC22284CE1004E9285 /* FitAware-IOS */;
 			targetProxy = F3A28FFD22284CE2004E9285 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -299,14 +303,6 @@
 				F3A28FE522284CE1004E9285 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F3A28FE922284CE2004E9285 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3A28FEA22284CE2004E9285 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -481,7 +477,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitAwear-IOS.app/FitAwear-IOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitAware-IOS.app/FitAware-IOS";
 			};
 			name = Debug;
 		};
@@ -502,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitAwear-IOS.app/FitAwear-IOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitAware-IOS.app/FitAware-IOS";
 			};
 			name = Release;
 		};
@@ -549,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3A28FD822284CE1004E9285 /* Build configuration list for PBXProject "FitAwear-IOS" */ = {
+		F3A28FD822284CE1004E9285 /* Build configuration list for PBXProject "FitAware-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3A2900322284CE2004E9285 /* Debug */,
@@ -558,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3A2900522284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOS" */ = {
+		F3A2900522284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAware-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3A2900622284CE2004E9285 /* Debug */,
@@ -567,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3A2900822284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOSTests" */ = {
+		F3A2900822284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAware-IOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3A2900922284CE2004E9285 /* Debug */,
@@ -576,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3A2900B22284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAwear-IOSUITests" */ = {
+		F3A2900B22284CE2004E9285 /* Build configuration list for PBXNativeTarget "FitAware-IOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3A2900C22284CE2004E9285 /* Debug */,
